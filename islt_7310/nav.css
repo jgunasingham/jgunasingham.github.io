@@ -1,3 +1,7 @@
+.active a:link {
+    background-color: #0412C8;
+}
+
 nav {
     top: 0px;   
 }
@@ -13,7 +17,7 @@ nav>ul li {
     text-align: center;
     font-weight: bold;
     color: #0412C8;
-    float: top;
+    float: left;
     }
 
 nav a {
@@ -40,8 +44,7 @@ nav a:active{
     /*position sub-menu or drop-down*/
 nav ul>li ul {
     position: absolute;
-    margin-top: 0;
-    margin-left: 100%;
+    top: 100%;
     display: none;
     }
 nav ul ul li {
@@ -49,6 +52,6 @@ nav ul ul li {
     }
     
     /*special hover to display the drop-down*/
-nav>ul>li:hover>ul{
+    nav>ul>li:hover>ul{
     display: block;
     }
