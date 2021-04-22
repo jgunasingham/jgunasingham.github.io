@@ -3,13 +3,9 @@ nav {
 }
 
 nav ul{
-    text-decoration: none;
-    display: inline-block;
-    border: 3px solid gray;
-    padding: 15px 15px 15px 15px;
-    width: 150px;
-    margin: 2px;
-    background-color: #1E96DD;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 nav>ul li {
     /*this is important to set so our drop-down doesn't go across the page*/
