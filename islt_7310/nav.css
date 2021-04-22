@@ -1,19 +1,16 @@
-ul li {
+nav {
+    top: 0px;   
+}
+
+nav ul{
     text-decoration: none;
     display: inline-block;
     border: 3px solid gray;
     padding: 15px 15px 15px 15px;
     width: 150px;
-    top: 0px;
     margin: 2px;
     background-color: #1E96DD;
 }
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
 nav>ul li {
     /*this is important to set so our drop-down doesn't go across the page*/
     position: relative; /*we must add a position to our main navigation bar so we can position a drop-down properly */
