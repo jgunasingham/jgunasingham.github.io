@@ -9,6 +9,10 @@ ul li {
     margin-left: 2px;
 }
 
+.active a:link {
+    background-color: #0412C8;
+}
+
 /*format and position the main navigation menu*/
 nav ul {
     list-style-type: none;
