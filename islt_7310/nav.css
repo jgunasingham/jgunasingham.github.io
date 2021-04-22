@@ -13,13 +13,7 @@ ul li {
     background-color: #0412C8;
 }
 
-/*format and position the main navigation menu*/
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    }
-    nav>ul li {
+nav>ul li {
     /*this is important to set so our drop-down doesn't go across the page*/
     position: relative; /*we must add a position to our main navigation bar so we can position a drop-down properly */
     text-align: center;
