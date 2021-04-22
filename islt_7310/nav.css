@@ -1,3 +1,14 @@
+ul li {
+    display: inline-block;  
+    border: 3px solid gray;
+    width: 150px;
+    list-style-type: none;
+    padding: 15px 15px 15px 25px;
+    background-color: #1E96DD;
+    margin-top: 5px; 
+    margin-left: 2px;
+}
+
 /*format and position the main navigation menu*/
 nav ul {
     list-style-type: none;
@@ -5,20 +16,23 @@ nav ul {
     padding: 0;
     }
     nav>ul li {
-    width: 150px; /*this is important to set so our drop-down doesn't go across the page*/
+    /*this is important to set so our drop-down doesn't go across the page*/
     position: relative; /*we must add a position to our main navigation bar so we can position a drop-down properly */
     text-align: center;
     font-weight: bold;
     color: #0412C8;
+    float: left;
     }
     nav ul li {
     margin-bottom: 2px;
     }
     nav a {
     text-decoration: none;
-    display: block;
+    display: inline-block;
     border: 3px solid gray;
     padding: 15px 15px 15px 15px;
+    width: 150px;
+    margin: 2px;
     }
     
     /*format all navigation <a> elements*/
@@ -39,6 +53,9 @@ nav ul {
     margin-top: 0;
     margin-left: 100%;
     display: none;
+    }
+    nav ul ul li {
+        float:none;
     }
     
     /*special hover to display the drop-down*/
