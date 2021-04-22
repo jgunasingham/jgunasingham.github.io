@@ -1,6 +1,16 @@
 .active a:link {
-    background-color: #0412C8;
+    background-color: #1E96DD;
 }
+
+ul li {
+    text-decoration: none;
+    display: inline-block;
+    border: 3px solid gray;
+    padding: 15px 15px 15px 15px;
+    width: 150px;
+    margin: 2px;
+    background-color: #1E96DD;
+    }
 
 nav>ul li {
     /*this is important to set so our drop-down doesn't go across the page*/
