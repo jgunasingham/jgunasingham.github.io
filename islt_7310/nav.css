@@ -14,11 +14,11 @@ nav ul{
 }
 nav>ul li {
     /*this is important to set so our drop-down doesn't go across the page*/
-    position: right; /*we must add a position to our main navigation bar so we can position a drop-down properly */
+    position: relative; /*we must add a position to our main navigation bar so we can position a drop-down properly */
     text-align: center;
     font-weight: bold;
     color: #0412C8;
-    float: left;
+    float: right;
     }
 
 nav a {
