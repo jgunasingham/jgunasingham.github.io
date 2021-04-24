@@ -1,2 +1,11 @@
 #colorChange {color: #1E96DD;}
+header {
+margin: 20px
+}
+main {
+margin: 20px
+}
+footer {
+margin: 20px
+}
 main p {text-indent: 2em;}
