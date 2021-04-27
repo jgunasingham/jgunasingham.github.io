@@ -1,9 +1,11 @@
 #colorChange {color: #1E96DD;}
 header {
-margin: 20px
+    border: 2px solid white;
+    margin: 50px;
 }
 main {
-margin: 20px
+    margin: 20px;
+    padding: 10px;
 }
 footer {
 margin: 20px
