@@ -4,6 +4,7 @@
 }
 
 nav {
+    border: 1px solid white;
     top: 0px;   
 }
 
@@ -11,13 +12,10 @@ nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    box-align: right;
-    display: inline-flex;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
+    display: flex;
+    
 }
-
-nav>ul li {
+nav> ul li {
     /*this is important to set so our drop-down doesn't go across the page*/
     position: relative; /*we must add a position to our main navigation bar so we can position a drop-down properly */
     text-align: center;
@@ -47,7 +45,7 @@ nav a:active{
     }
     
     /*position sub-menu or drop-down*/
-nav ul>li ul {
+nav ul> li ul {
     position: absolute;
     top: 100%;
     display: none;
@@ -57,6 +55,6 @@ nav ul ul li {
     }
     
     /*special hover to display the drop-down*/
-    nav>ul>li:hover>ul{
+nav> ul> li:hover> ul{
     display: block;
     }
