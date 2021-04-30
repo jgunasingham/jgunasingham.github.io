@@ -1,29 +1,18 @@
-.aboutlayout * {
+.grid * {
     display: flex;
     justify-content: right;
     align-items: center;
     margin-bottom: 1px;
 }
 
-.aboutlayout {
+.grid {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 1fr 1fr 4fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     grid-gap: 2px;
 }
 
-nav {
-    grid-column-start: 1;
-    grid-column-end: 4;
-}
-
-header {
-    grid-column-start: 1;
-    grid-column-end: 4;
-}
-
-
-footer {
+article {
     grid-column-start: 1;
     grid-column-end: 4;
 }
