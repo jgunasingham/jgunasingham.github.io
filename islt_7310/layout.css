@@ -14,20 +14,16 @@
 
 nav {
     grid-column-start: 1;
-    grid-column-end: 1;
+    grid-column-end: 4;
 }
 
 header {
     grid-column-start: 1;
-    grid-column-end: 1;
+    grid-column-end: 4;
 }
 
-main {
-    grid-column-start: 1;
-    grid-column-end: 2;
-}
 
 footer {
     grid-column-start: 1;
-    grid-column-end: 1;
+    grid-column-end: 4;
 }
