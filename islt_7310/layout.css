@@ -10,6 +10,11 @@
 article {
     justify-content: space-around;
 }
+
+image {
+    justify-content: space-around;
+}
+
 .gridabout {
     display: grid;
     grid-template-columns: 1fr 1fr;
