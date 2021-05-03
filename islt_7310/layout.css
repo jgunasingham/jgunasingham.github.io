@@ -1,12 +1,9 @@
-.flexindex {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
+.gridindex {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     grid-gap: 2px;
 }
-
 article {
     justify-content: space-around;
 }
