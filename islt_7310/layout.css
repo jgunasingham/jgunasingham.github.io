@@ -1,18 +1,16 @@
-.grid * {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    margin-bottom: 1px;
-}
-
 .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     grid-gap: 2px;
 }
 
-article {
+main {
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 1;
+}
+
+image {
+    grid-column-start: 2;
+    grid-column-end: 2;
 }
