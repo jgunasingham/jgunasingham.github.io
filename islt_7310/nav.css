@@ -15,6 +15,7 @@ nav ul{
     display: inline-flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
+    align-items: flex-end;
 }
 
 nav>ul li {
