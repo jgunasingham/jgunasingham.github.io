@@ -14,7 +14,7 @@ nav ul{
     box-align: right;
     display: inline-flex;
     flex-direction: row-reverse;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     align-items: flex-end;
 }
 
