@@ -10,7 +10,7 @@ image {
     grid-column-start: 1;
     grid-column-end: 4;   
 }
-
+    
 article {
     grid-row-start: 1;
     grid-row-end: 1;
