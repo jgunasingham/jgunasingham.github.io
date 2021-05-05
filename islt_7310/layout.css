@@ -1,22 +1,23 @@
 .gridindex {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-gap: 2px;
 }
-image {
-    grid-row-start: 1;
-    grid-row-end: 1;
-    grid-column-start: 1;
-    grid-column-end: 4;   
-}
+
+    image {
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 1;
+        grid-column-end: 4;   
+    }
     
-article {
-    grid-row-start: 1;
-    grid-row-end: 1;
-    grid-column-start: 1;
-    grid-column-end: 4;  
-}
+    article {
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 1;
+        grid-column-end: 4;  
+    }
 
 .gridabout {
     display: grid;
@@ -34,5 +35,17 @@ article {
     image {
         grid-column-start: 2;
         grid-column-end: 2;   
-    }   
+    } 
 
+.gridexperience {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 2px;
+}
+        image {
+            grid-row-start: 1;
+            grid-row-end: 1;
+            grid-column-start: 1;
+            grid-column-end: 3;   
+        }
