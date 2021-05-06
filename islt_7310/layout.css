@@ -44,7 +44,7 @@
         grid-template-rows: 1fr 1fr;
         grid-gap: 2px;
 }
-.gridexperience>image {
+.gridexperience>img {
             grid-row-start: 1;
             grid-row-end: 1;
             grid-column-start: 1;
