@@ -27,7 +27,6 @@
     } 
 
 .grid-experience-flex {
-        display: flex;
         margin: 5px;
         padding: 5px;
         width: 33%;
@@ -64,7 +63,7 @@
                     grid-column-end: 2;
                 }
             
-.gridreflection2>image {
+.gridreflection2>img {
                     grid-column-start: 1;
                     grid-column-end: 1;   
                 } 
