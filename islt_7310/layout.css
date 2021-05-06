@@ -28,12 +28,12 @@
     border-top: 2px;
 }
 
-    main {
+.gridabout>main {
         grid-column-start: 1;
         grid-column-end: 1;
     }
 
-    image {
+.gridabout>img {
         grid-column-start: 2;
         grid-column-end: 2;   
     } 
