@@ -1,7 +1,7 @@
 .indeximg {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 150px;
     grid-gap: 2px;
 }
 
@@ -11,11 +11,11 @@
         grid-column-start: 1;
         grid-column-end: 4;   
     }
-    
+
 .indextext  {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 150px;
     grid-gap: 2px;
 }
 
