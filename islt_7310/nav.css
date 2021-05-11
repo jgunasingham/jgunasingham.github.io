@@ -72,15 +72,15 @@ nav ul ul li {
             position: relative;
             height: 40px;
             display: block;
-            background-color: cadetblue;
+            background-color: #1E96DD;
             width: 100%;}
     }
         #hamburger {
             display: inline-block;
             padding-left: 20px;
             width: 26px;
-            float: none;
-            font-size: 2em;
+            float: left;
+            font-size: 20em;
         }
         nav ul, nav:active ul {
             display: none;
@@ -102,7 +102,7 @@ nav ul ul li {
         nav>ul li {
         text-align: left;
         font-weight: bold;
-        color: darkmagenta;
+        color: #0412C8;
         float: left;
     }
     nav a {
@@ -114,7 +114,7 @@ nav ul ul li {
         width: 240px;
         margin-bottom: 2px;
     }
-    nav .lastMobile {border-bottom: 3px dotted magenta;}
+    nav .lastMobile {border-bottom: 3px solid gray;}
         nav ul li ul {
             display:none;
         }
