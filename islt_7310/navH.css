@@ -62,7 +62,7 @@ nav>ul>li:hover>ul{
         height: 40px;
         display: block;
         background-color: cadetblue;
-        width: 100%;        
+        width: 100%;}
 
 	}
 	#hamburger {
@@ -108,5 +108,5 @@ nav .lastMobile {border-bottom: 3px dotted magenta;}
     nav ul li ul {
         display:none;
     }
-}
+
 
