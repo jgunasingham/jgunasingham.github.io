@@ -41,8 +41,11 @@ margin: 20px
         border: none;
         text-align: center;
         }
-    a[href]::after{
+    a[href^="http:"]::after{
         content: " [" attr(href)"]";
         color: blue;
+    }
+    @page {
+        margin: .5cm;
     }
 }
