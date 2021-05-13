@@ -22,3 +22,27 @@ main {
 footer {
 margin: 20px
 }
+
+/*print-stylesheet*/
+
+@media print {
+    * { 
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    .nav,
+    .footer {
+        display: none;
+    }
+    .header {
+        margin-bottom: 0;
+        border: none;
+        text-align: center;
+        }
+    a[href]::after{
+        content: " [" attr(href)"]";
+        color: blue;
+    }
+}

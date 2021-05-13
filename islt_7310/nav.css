@@ -15,10 +15,10 @@ nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    box-align: right;
+    box-align: left;
     display: inline-flex;
     flex-direction: row-reverse;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     align-items: flex-end;
 }
 
