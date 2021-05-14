@@ -5,63 +5,50 @@
 .grid-index-flex{
     margin: 5px;
     padding: 5px;
-    width: 25%;
+    width: 25vw;
 }
 
-.grid-about-flex {
-    width: 100%;
-    background-size: contain;
-    margin: 5px;
-    padding: 5px;
-}
 .grid-experience-flex {
         margin: 5px;
         padding: 5px;
-        width: 33%;
+        width: 33vw;
 }
 
-.gridreflection1 {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr;
-            grid-gap: 2px;
-            border-top: 2px;
-        }
-
-.gridreflection1 * {
-            display: flex;
-            justify-content: center;
-            
-}          
-.gridreflection1>article {
-                grid-column-start: 1;
-                grid-column-end: 1;
-            }
-        
-.gridreflection1>img {
-                grid-column-start: 2;
-                grid-column-end: 2;   
-            } 
-            
-.gridreflection2 {
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                grid-template-rows: 1fr;
-                grid-gap: 2px;
-                border-top: 2px;
-            }
-
-.gridreflection2 * {
-    display: flex;
-    justify-content: center;   
+.grid-col{
+    width: 50vw;
+}
+.items {
+    width: 100%
 }
 
-.gridreflection2>article {
-                    grid-column-start: 2;
-                    grid-column-end: 2;
-                }
-            
-.gridreflection2>img {
-                    grid-column-start: 1;
-                    grid-column-end: 1;   
-                } 
+.center {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+    .grid-col p{
+      font-size: 1.5em;
+    }
+    main p {
+        font-size:1.5em;
+    }
+    article {
+        font-size:1.5em;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    .grid-col p {
+      font-size: 2em;
+    }
+    main p {
+        font-size:2em;
+    }
+    article {
+        font-size:2em;
+    }
+  }
