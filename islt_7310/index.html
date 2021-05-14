@@ -2,6 +2,7 @@
 <html lang="en-US">
 <head>
                <meta charset="utf-8">
+               <meta name="viewport" content="width=device-width,initial-scale=1">
                <link rel="shortcut icon" type="image/png" href="Images/favicon.png">
                <title>Home Page</title>
                     <link rel="stylesheet" href="nav.css">
@@ -12,13 +13,12 @@
 
 <body>
     <nav>
-        <!---<i id="burger" class="material-icons" onclick="burger()">menu</i>
-        <i id="quit" class="material-icons" onclick="quit()">clear</i>--->
+        <label id="hamburger">&#9776;</label>
         
         <ul>          
             <li><a href="#contact.html">CONTACT</a></li>
             <li><a href="experience.html">EXPERIENCE</a>
-                <ul>
+                <ul id="mobileHide">
                     <li><a href="#">Hazelwood West High School Science Teacher</a></li>
                     <li><a href="#">Hazelwood West High School Robotics Coach</a></li>
                     <li><a href="#">Parkway United Ultimate Frisbee Coach</a></li>
@@ -26,7 +26,7 @@
             </li>
             <li><a href="reflection.html">PHILOSOPHY</a></li>
             <li><a href="about.html">ABOUT</a></li>
-            <li><a href="index.html">HOME</a></li>
+            <li class="lastMobile"><a href="index.html">HOME</a></li>
         </ul>
     </nav>
 
