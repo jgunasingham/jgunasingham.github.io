@@ -3,9 +3,9 @@
     font-weight: bold;
 }
 
-/*#hamburger {
+#hamburger {
     display: none;
-}*/
+}
 
 nav {
     top: 0px;   
@@ -72,7 +72,7 @@ nav>ul>li:hover>ul{
     display: block;
 }
 
-/*@media only screen and (max-width: 601px) {
+@media only screen and (max-width: 601px) {
 	header {
 		position: relative;
         height: 40px;
@@ -123,4 +123,4 @@ nav .lastMobile {border-bottom: 3px solid gray;}
     nav ul li ul {
         display:none;
     }
-}*/
+}

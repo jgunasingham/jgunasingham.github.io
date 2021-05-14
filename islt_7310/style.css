@@ -30,6 +30,9 @@ margin: 20px
     background-size: contain;
     text-align: justify;
 }
+footer img:hover, footer img:focus {
+    transform: scale(2,2);
+    }
 
 /*print-stylesheet*/
 
