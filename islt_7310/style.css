@@ -3,7 +3,7 @@
     src: url("Lora-Medium.ttf"); /*remember this is how we link to files in CSS!*/
     }
 
-#colorChange {color: #1E96DD;}
+#colorChange {color: #dd1e1e;}
 header {
     border: 3px solid gray;
     border-radius: 25px;
@@ -23,6 +23,14 @@ footer {
 margin: 20px
 }
 
+.footer-image {
+    width: 100%;
+    height: auto;
+    background-image: url(images/footer.jpg);
+    background-size: contain;
+    text-align: justify;
+}
+
 /*print-stylesheet*/
 
 @media print {
@@ -32,11 +40,11 @@ margin: 20px
         box-shadow: none !important;
         text-shadow: none !important;
     }
-    .nav,
-    .footer {
+    nav{
         display: none;
     }
-    .header {
+    header {
+        margin-top: 1.5cm;
         margin-bottom: 0;
         border: none;
         text-align: center;

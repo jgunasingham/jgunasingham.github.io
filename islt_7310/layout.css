@@ -10,6 +10,9 @@
 
 .grid-about-flex {
     width: 100%;
+    background-size: contain;
+    margin: 5px;
+    padding: 5px;
 }
 .grid-experience-flex {
         margin: 5px;
