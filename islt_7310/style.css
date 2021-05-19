@@ -3,7 +3,7 @@
     src: url("Lora-Medium.ttf"); /*remember this is how we link to files in CSS!*/
     }
 
-#colorChange {color: #dd1e1e;}
+#colorChange {color: black;}
 header {
     border: 3px solid gray;
     border-radius: 25px;
