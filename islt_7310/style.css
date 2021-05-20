@@ -40,8 +40,9 @@ table, th, td {
 
 #t01 tr:nth-child(odd) {
     color: black;
-    background-color: #fff;
+    background-color: white;
   }
+  
 #t01 th {
     color: black;
     background-color: #1E96DD;
