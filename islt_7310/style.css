@@ -4,6 +4,7 @@
     }
 
 #colorChange {color: black;}
+
 header {
     border: 3px solid gray;
     border-radius: 25px;
@@ -23,9 +24,27 @@ footer {
 margin: 20px
 }
 
+table {
+    width: 100%;
+    margin: 10px;
+}
 table, th, td {
     border: 1px solid white;
     padding: 15px
+  }
+
+#t01 tr:nth-child(even) {
+    color: black;
+    background-color:gray;
+}
+
+#t01 tr:nth-child(odd) {
+    color: black;
+    background-color: #fff;
+  }
+#t01 th {
+    color: black;
+    background-color: #1E96DD;
   }
 
 .footer-image {
