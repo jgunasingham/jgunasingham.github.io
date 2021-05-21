@@ -30,23 +30,27 @@ table {
 }
 table, th, td {
     border: 1px solid white;
-    padding: 15px
+    padding: 1px
   }
 
 #t01 tr:nth-child(even) {
     color: black;
-    background-color:gray;
+    background-color:white;
 }
 
 #t01 tr:nth-child(odd) {
     color: black;
-    background-color: white;
+    background-color:gray;
   }
-  
+
 #t01 th {
     color: black;
     background-color: #1E96DD;
   }
+
+textarea {
+    font-family: Lora;
+}  
 
 .footer-image {
     width: 100%;
