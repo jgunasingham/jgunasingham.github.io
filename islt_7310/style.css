@@ -30,7 +30,7 @@ table {
 }
 table, th, td {
     border: 1px solid white;
-    padding: 1px
+    padding: 15px
   }
 
 #t01 tr:nth-child(even) {
@@ -48,8 +48,13 @@ table, th, td {
     background-color: #1E96DD;
   }
 
+input {
+    width: 100%;
+}
 textarea {
     font-family: Lora;
+    width: 100%;
+    height: 5em;
 }  
 
 .footer-image {
